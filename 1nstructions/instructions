@@ -1,9 +1,0 @@
-Open VS Code → Webflow Scripts folder
-Create new folder with index.html, script.js, style.css
-git save in terminal
-Use these URLs in Webflow:
-https://cdn.jsdelivr.net/gh/Warren531-pixel/webflow-scripts@main/ProjectName/script.js
-https://cdn.jsdelivr.net/gh/Warren531-pixel/webflow-scripts@main/ProjectName/style.css
-Edit in VS Code
-Save
-git save in terminal
