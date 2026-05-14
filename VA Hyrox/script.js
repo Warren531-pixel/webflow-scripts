@@ -22,3 +22,4 @@ window.addEventListener("resize", () => {
     ScrollTrigger.refresh();
   }
 });
+console.log("VA script executed");
