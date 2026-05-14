@@ -1,4 +1,5 @@
 console.log("VA script loaded");
+const isMobile = window.matchMedia("(max-width: 991px)").matches;
 const lenis = new Lenis({
   syncTouch: !isMobile,
   syncTouchLerp: 0.075,
