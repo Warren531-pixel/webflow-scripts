@@ -1,3 +1,9 @@
+// Before loading TF.js
+const originalWarn = console.warn;
+console.warn = (...args) => {
+  if (args[0]?.includes?.('already registered')) return;
+  originalWarn(...args);
+};
 console.log("VA script loaded");
 const isMobile = window.matchMedia("(max-width: 991px)").matches;
 const lenis = new Lenis({
